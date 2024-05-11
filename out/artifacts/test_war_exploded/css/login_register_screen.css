@@ -1,0 +1,146 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 12px;
+    background: #fff;
+    color: #5f6063;
+    width: 100%;
+    overflow: auto;
+    font-family: "微软雅黑", Microsoft Yahei, Arial, Helvetica, sans-serif;
+}
+html, body, table, th, tr, td, div, span, input, select, textarea, ul, li, dl, ol, dt, dd, form, p, hr, img, h1, h2, h3, h4, h5, h6, h7 {
+    padding: 0;
+    margin: 0;
+}
+ul, li {
+    list-style: none;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 940px;
+    padding: 53px 30px 19px 30px;
+    border-bottom: solid 1px #dadada;
+}
+img {
+    border: 0;
+    vertical-align: top;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.main {
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+}
+.main {
+    width: 998px;
+    height: 413px;
+    background: url(../img/login_main_background.png) no-repeat;
+    margin: 1px;
+}
+.tabs {
+    float: left;
+    margin: 18px 0 0 650px;
+    background: #FFF;
+    padding: 15px;
+    width: 300px;
+    height: 352px;
+    position: relative;
+    padding-top: 10px;
+}
+.tabsNav {
+    height: 44px;
+    line-height: 44px;
+    border-bottom: solid 1px #d7d7d7;
+}
+.tabsNav li {
+    cursor: pointer;
+    /* float: left; */
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    color: #379bd6;
+    font-size: 18px;
+    margin-right: 20px;
+}
+li.PnAndPwLogin{
+    width: 100%;
+    margin-right: 0;
+    border-bottom: 0;
+    color: #379bd6;
+}
+.tabsContent {
+    float: left;
+    width: 300px;
+    /* height: 379px; */
+    padding: 20px 0 10px 0;
+    position: relative;
+}
+
+.tabsContent .item {
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    height: 38px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.input {
+    width: 278px;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #d7d7d7;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #5f6063;
+    display: inline-block;
+    float: left;
+}
+
+.button {
+    width: 300px;
+    background: #0085d0;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #0085d0;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    outline: 0;
+}
+.a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+}
